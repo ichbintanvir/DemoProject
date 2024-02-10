@@ -1,0 +1,8 @@
+.logo {
+    width: 34px;
+    height: 3px;
+    border-radius: 30px;
+    padding: 7px;
+    gap: 10px;
+    background-color: #FDEAB7;
+}
