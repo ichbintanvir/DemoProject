@@ -7,6 +7,8 @@ import NotFound from "./pages/NotFound";
 import P from "./component/P";
 import Bhero from "./component/Bhero";
 import Blog from "./pages/Blog";
+import Demo from "./component/Demo";
+import Practic from "./component/Practic";
 
 const App = () => {
   return (
@@ -20,14 +22,7 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
-    // <>
-    //   <Home />
-    //   <AboutUs />
-    //   <ContactUs />
-    //   <Resources />
-    // </>
-    // <News />
-
+    // <Practic />
   );
 };
 

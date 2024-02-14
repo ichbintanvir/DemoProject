@@ -2,9 +2,9 @@ const Stories = () => {
     return (
         <div className="bg-[#FBF9F1]">
             <div className="container mx-auto space-y-6">
-                <h1 className="text-2xl font-bold text-center pt-8">Read Our Stories</h1>
+                <h1 className="text-2xl font-bold text-center pt-8" data-aos="fade-up" data-aos-duration="1000">Read Our Stories</h1>
                 <div className="pb-12 grid grid-cols-1  sm:grid-cols-3 gap-5 px-5">
-                    <div className="bg-white w-[295px] space-y-6 rounded-md mx-auto mb-5">
+                    <div className="bg-white w-[295px] space-y-6 rounded-md mx-auto mb-5" data-aos="fade-up" data-aos-duration="2000">
                         <div className="">
                             <img src="./src/assets/images/image 859.png" alt="" />
                         </div>
@@ -31,7 +31,7 @@ const Stories = () => {
                         </div>
                         <div></div>
                     </div>
-                    <div className="bg-white w-[295px] space-y-6 rounded-md mx-auto mb-5">
+                    <div className="bg-white w-[295px] space-y-6 rounded-md mx-auto mb-5" data-aos="fade-up" data-aos-duration="2000">
                         <div>
                             <img src="./src/assets/images/image 859.png" alt="" />
                         </div>
@@ -58,7 +58,7 @@ const Stories = () => {
                         </div>
                         <div></div>
                     </div>
-                    <div className="bg-white w-[295px] space-y-6 rounded-md mx-auto mb-5">
+                    <div className="bg-white w-[295px] space-y-6 rounded-md mx-auto mb-5" data-aos="fade-up" data-aos-duration="2000">
                         <div>
                             <img src="./src/assets/images/image 859.png" alt="" />
                         </div>
@@ -80,7 +80,7 @@ const Stories = () => {
                             </div>
                             <div></div>
                         </div>
-                        <div className="px-3">
+                        <div className="px-3 font-[Helvetica]">
                             <p>Impact, sustainability, and CSR: Using data to build the organizations.</p>
                         </div>
                         <div></div>

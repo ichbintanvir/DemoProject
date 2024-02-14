@@ -136,7 +136,8 @@ const Blog = () => {
                         {list.slice(0, cardsToShow).map((data, index) => (
                             <div key={index} className="sm:w-[580px]">
                                 {
-                                    <div>
+                                    <div data-aos="fade-up"
+                                        data-aos-duration="3000">
                                         <div className='flex flex-col'>
                                             <div>
                                                 <img src={data.image} alt="" />

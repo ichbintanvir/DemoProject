@@ -63,11 +63,13 @@ const News = () => {
     return (
         <div className="bg-orange-50 py-5">
             <div className="container mx-auto">
-                <form action="" className="flex gap-2 pt-8 px-5">
+                <form action="" className="flex gap-2 pt-8 px-5" data-aos="fade-up"
+                    data-aos-duration="3000">
                     <input type="text" className="px-5 py-2 w-full focus:outline-none rounded-lg" placeholder="Search articles,topices etc." />
                     <button className="text-white bg-amber-900 px-5 py-2 rounded-lg">Search</button>
                 </form>
-                <div className="flex flex-col sm:flex-row gap-4 mt-5 px-5">
+                <div className="flex flex-col sm:flex-row gap-4 mt-5 px-5" data-aos="fade-up"
+                    data-aos-duration="3000">
                     <button className='bg-white px-3 rounded-lg'>Design Thinking</button>
                     <button className='bg-white px-3 rounded-lg'>Technology</button>
                     <button className='bg-white px-3 rounded-lg'>Web</button>
@@ -81,10 +83,11 @@ const News = () => {
                     <a href="" className="px-4 py-1 rounded bg-white inline">Programming</a>
                     <a href="" className="px-4 py-1 rounded bg-white inline">AI</a>
                 </div> */}
-                <div className="mt-5 px-5">
+                <div className="mt-5 px-5" >
                     {
                         info.slice(0, cardsToShow).map((data, index) => (
-                            <div key={index} className="mb-5">
+                            <div key={index} className="mb-5" data-aos="fade-up"
+                                data-aos-duration="3000">
                                 <div className="flex flex-col sm:flex-row justify-between bg-white rounded-lg items-center px-[30px] py-[41px]">
                                     <div className="space-y-3">
                                         <span className="text-[13px]">{data.date}</span>
@@ -106,7 +109,8 @@ const News = () => {
                     }
                 </div>
                 {cardsToShow < info.length && (
-                    <div className="text-center mt-4">
+                    <div className="text-center mt-4" data-aos="fade-up"
+                        data-aos-duration="3000">
                         <button
                             className="bg-blue-500 text-white px-4 py-2 rounded"
                             onClick={handleLoadMore}

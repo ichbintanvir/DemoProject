@@ -4,7 +4,8 @@ const Navbar = () => {
     return (
         <div className="bg-white">
             <div className="container mx-auto py-3 px-5 grid grid-cols-1 px-5 sm:grid-cols-2 items-center">
-                <div className="w-[61px] h-[61px]">
+                <div className="w-[61px] h-[61px]" data-aos="fade-up"
+                    data-aos-duration="3000">
                     <img src="./src/assets/images/image 7.png" alt="" />
                 </div>
                 <div className="cursor-pointer">

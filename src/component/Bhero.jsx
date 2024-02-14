@@ -6,19 +6,23 @@ const Bhero = () => {
                     <div>
                         <span className="text-[18px]">25.12.2025</span>
                         <div className="text-[42px]">
-                            <h1>Juuuno's Blog</h1>
-                            <h1>DMP solutions</h1>
+                            <h1 data-aos="fade-up"
+                                data-aos-duration="3000">Juuuno's Blog</h1>
+                            <h1 data-aos="fade-up"
+                                data-aos-duration="2800">DMP solutions</h1>
                         </div>
-                        <p className="text-[18px]">
+                        <p className="text-[18px]" data-aos="fade-up"
+                            data-aos-duration="3000">
                             Privacy enables proprietary DMP & Ad-stack solutions built for web 2 & web 3 advertisers.
                         </p>
                     </div>
-                    <div>
+                    <div data-aos="fade-up"
+                        data-aos-duration="3000">
                         <img src="./src/assets/images/12.png" alt="" />
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 export default Bhero;
