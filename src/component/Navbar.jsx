@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="container mx-auto py-3 px-5 grid grid-cols-1 px-5 sm:grid-cols-2 items-center">
                 <div className="w-[61px] h-[61px]" data-aos="fade-up"
                     data-aos-duration="3000">
-                    <img src="./src/assets/images/image 7.png" alt="" />
+                    <img src="/src/assets/images/image 7.png" alt="" />
                 </div>
                 <div className="cursor-pointer">
                     <ul className="flex flex-col w-screen sm:flex-row gap-8">

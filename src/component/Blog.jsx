@@ -1,27 +1,27 @@
 // const list = [
 //     {
-//         image: "./src/assets/images/image 863.png",
+//         image: "/src/assets/images/image 863.png",
 //         title: "JUNNO RETAIL MEDIA PLATFORM",
 //         date: "Nov 03,2023",
 //         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
 //         exit: "Read More",
 //     },
 //     {
-//         image: "./src/assets/images/image 863.png",
+//         image: "/src/assets/images/image 863.png",
 //         title: "JUNNO RETAIL MEDIA PLATFORM",
 //         date: "Nov 03,2023",
 //         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
 //         exit: "Read More",
 //     },
 //     {
-//         image: "./src/assets/images/image 863.png",
+//         image: "/src/assets/images/image 863.png",
 //         title: "JUNNO RETAIL MEDIA PLATFORM",
 //         date: "Nov 03,2023",
 //         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
 //         exit: "Read More",
 //     },
 //     {
-//         image: "./src/assets/images/image 863.png",
+//         image: "/src/assets/images/image 863.png",
 //         title: "JUNNO RETAIL MEDIA PLATFORM",
 //         date: "Nov 03,2023",
 //         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
@@ -64,56 +64,56 @@ const cardsPerLoad = 2;
 
 const list = [
     {
-        image: "./src/assets/images/image 863.png",
+        image: "/src/assets/images/image 863.png",
         title: "JUNNO RETAIL MEDIA PLATFORM",
         date: "Nov 03,2023",
         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
         exit: "Read More",
     },
     {
-        image: "./src/assets/images/image 863.png",
+        image: "/src/assets/images/image 863.png",
         title: "JUNNO RETAIL MEDIA PLATFORM",
         date: "Nov 03,2023",
         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
         exit: "Read More",
     },
     {
-        image: "./src/assets/images/image 863.png",
+        image: "/src/assets/images/image 863.png",
         title: "JUNNO RETAIL MEDIA PLATFORM",
         date: "Nov 03,2023",
         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
         exit: "Read More",
     },
     {
-        image: "./src/assets/images/image 863.png",
+        image: "/src/assets/images/image 863.png",
         title: "JUNNO RETAIL MEDIA PLATFORM",
         date: "Nov 03,2023",
         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
         exit: "Read More",
     },
     {
-        image: "./src/assets/images/image 863.png",
+        image: "/src/assets/images/image 863.png",
         title: "JUNNO RETAIL MEDIA PLATFORM",
         date: "Nov 03,2023",
         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
         exit: "Read More",
     },
     {
-        image: "./src/assets/images/image 863.png",
+        image: "/src/assets/images/image 863.png",
         title: "JUNNO RETAIL MEDIA PLATFORM",
         date: "Nov 03,2023",
         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
         exit: "Read More",
     },
     {
-        image: "./src/assets/images/image 863.png",
+        image: "/src/assets/images/image 863.png",
         title: "JUNNO RETAIL MEDIA PLATFORM",
         date: "Nov 03,2023",
         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
         exit: "Read More",
     },
     {
-        image: "./src/assets/images/image 863.png",
+        image: "/src/assets/images/image 863.png",
         title: "JUNNO RETAIL MEDIA PLATFORM",
         date: "Nov 03,2023",
         description: "Learn how machine learning and first-party data optimize omnichannel sales, ensure precise attribution, and boost media integration for online media.",
@@ -137,13 +137,13 @@ const Blog = () => {
                             <div key={index} className="sm:w-[580px]">
                                 {
                                     <div data-aos="fade-up"
-                                        data-aos-duration="3000">
+                                        data-aos-duration="3000" className='font-THICCCBOI'>
                                         <div className='flex flex-col'>
                                             <div>
                                                 <img src={data.image} alt="" />
                                             </div>
                                             <div className="mt-[-60px] bg-orange-50 w-full opacity-70 px-5 flex items-center gap-3">
-                                                <img src="./src/assets/images/image 7.png" className="w-[61px] h-[61px]" alt="" />
+                                                <img src="/src/assets/images/image 7.png" className="w-[61px] h-[61px]" alt="" />
                                                 <p>Anna Bell</p>
                                             </div>
                                         </div>
@@ -161,11 +161,9 @@ const Blog = () => {
                         ))}
                     </div>
                     {cardsToShow < list.length && (
-                        <div className="text-center mt-4">
-                            <button
-                                className="bg-blue-500 text-white px-4 py-2 rounded"
-                                onClick={handleLoadMore}
-                            >
+                        <div className="text-center mt-4 font-Inter" data-aos="fade-up"
+                            data-aos-duration="3000">
+                            <button className="text-[#151010] font-[500px] w-[196px] h-[52px] rounded bg-[#FDDC8D]" onClick={handleLoadMore}>
                                 Load More
                             </button>
                         </div>

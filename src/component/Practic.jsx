@@ -11,7 +11,7 @@ const Practic = () => {
         <div className="bg-red-400">
             <nav className="container mx-auto px-5 py-3 space-y-5 grid grid-cols-2 items-center">
                 <div>
-                    <img src="./src/assets/images/image 7.png" alt="" />
+                    <img src="/src/assets/images/image 7.png" alt="" />
                 </div>
                 {/* <div className={icon ? "hidden" : "col-span-2 sm:col-span-1"}> */}
                 <div className={`col-span-2 sm:col-span-1 ${!icon ? "" : "hidden"} sm:!block`}>

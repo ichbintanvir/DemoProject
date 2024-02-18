@@ -11,7 +11,7 @@ const Demo = () => {
         <div className="container mx-auto">
             <nav className="grid grid-cols-2 px-5 items-center py-3">
                 <div>
-                    <img className="w-[61px] h-[61px] flex items-center" src="./src/assets/images/image 7.png" alt="" />
+                    <img className="w-[61px] h-[61px] flex items-center" src="/src/assets/images/image 7.png" alt="" />
                 </div>
                 <div className={!nav ? "col-span-2 sm:col-span-1" : "hidden"}>
                     {/* <div className={!nav ? "absolute sm:static sm:min-h-fit bg-white left-0 top-[10%] sm:w-auto w-full px-5" : "hidden"}> */}

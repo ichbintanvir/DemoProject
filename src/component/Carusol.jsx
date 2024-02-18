@@ -16,12 +16,13 @@ const Navbar = () => {
 
     return (
         <div className="bg-[#8D462E]">
-            <div className="container mx-auto pt-[120px] pb-[150px]">
+            {/* <div className="container mx-auto pt-[120px] pb-[150px]"> */}
+            <div className="pt-[120px] pb-[150px]">
                 <Slider {...settings}>
                     <div className='space-y-20'>
-                        <h1 className="text-center content-center text-white text-[20px] sm:text-[82px] mx-auto">We specialize in helping <br /> a user find your brand</h1>
-                        <button className="flex items-center bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto">
-                            <div className="">
+                        <h1 className="text-center content-center text-white text-[20px] sm:text-[82px] mx-auto font-Montserrat">We specialize in helping <br /> a user find your brand</h1>
+                        <button className="flex items-center bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto gap-[6px]">
+                            <div className="font-THICCCBOI">
                                 <p className='text-sm sm:text-base'>Load more</p>
                             </div>
                             <div>
@@ -32,10 +33,10 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className='space-y-20'>
-                        <h1 className="text-center content-center text-white text-[22px] sm:text-[82px] mx-auto">Acquire users at scale</h1>
-                        <button className="flex bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto">
-                            <div className="">
-                                <p>Load more</p>
+                        <h1 className="text-center content-center text-white text-[22px] sm:text-[82px] mx-auto font-Montserrat">Acquire users at scale</h1>
+                        <button className="flex bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto gap-[6px]">
+                            <div className="font-THICCCBOI">
+                                <p className='text-sm sm:text-base'>Load more</p>
                             </div>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -45,10 +46,10 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className='space-y-20'>
-                        <h1 className="text-center content-center text-white text-[22px] sm:text-[82px] mx-auto">We connect a brand to the<br /> right solution partner</h1>
-                        <button className="flex bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto">
-                            <div className="">
-                                <p>Load more</p>
+                        <h1 className="text-center content-center text-white text-[22px] sm:text-[82px] mx-auto font-Montserrat">We connect a brand to the<br /> right solution partner</h1>
+                        <button className="flex bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto gap-[6px]">
+                            <div className="font-THICCCBOI">
+                                <p className='text-sm sm:text-base'>Load more</p>
                             </div>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
