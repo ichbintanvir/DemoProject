@@ -1,3 +1,5 @@
+import BlogHeroImg from "/src/assets/images/12.png";
+
 const Bhero = () => {
     return (
         <div className="bg-[#8D462E]">
@@ -22,7 +24,7 @@ const Bhero = () => {
                     </div>
                     <div data-aos="fade-up"
                         data-aos-duration="3000">
-                        <img src="/src/assets/images/12.png" alt="" />
+                        <img src={BlogHeroImg} alt="" />
                     </div>
                 </div>
             </div>

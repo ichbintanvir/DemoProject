@@ -91,11 +91,11 @@ const News = () => {
                                 <div className="flex flex-col sm:flex-row justify-between bg-white rounded-lg items-center px-[30px] py-[41px]">
                                     <div className="space-y-3 font-Graphik">
                                         <span className="font-[500px] text-[#667085] text-[13px]">{data.date}</span>
-                                        <div className='text-[#1D2939] text-[26px] font-[600px]'>
+                                        <div className='text-[#1D2939] text-[26px] font-[600]'>
                                             <h1 className="">{data.heading1}</h1>
                                             <h1 className="">{data.heading2}</h1>
                                         </div>
-                                        <div className='text-[#475467] text-[18px] font-[400px]'>
+                                        <div className='text-[#475467] text-[18px] font-[400]'>
                                             <p className="">{data.para1}</p>
                                             <p className="">{data.para2}</p>
                                         </div>
@@ -112,7 +112,7 @@ const News = () => {
                     <div className="text-center mt-4 font-Montserrat" data-aos="fade-up"
                         data-aos-duration="3000">
                         <button
-                            className="bg-[#FDDC8D] text-[#1D2939] font-[600px] px-4 py-2 rounded"
+                            className="bg-[#FDDC8D] text-[#1D2939] font-[600] px-4 py-2 rounded"
                             onClick={handleLoadMore}
                         >
                             More articel

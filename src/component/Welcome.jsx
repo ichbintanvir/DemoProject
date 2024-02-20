@@ -1,3 +1,7 @@
+import LeftImg from "/src/assets/images/Rectangle 5649.png";
+import RightImg from "/src/assets/images/Rectangle 5650.png";
+import { FiArrowRight } from "react-icons/fi";
+
 const Welcome = () => {
     return (
         <div className="bg-orange-50">
@@ -7,7 +11,7 @@ const Welcome = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 items-center">
                     <div data-aos="fade-up"
                         data-aos-duration="3000">
-                        <img src="./src/assets/images/Rectangle 5649.png" alt="" />
+                        <img src={LeftImg} alt="" />
                     </div>
                     <div className="text-[12px] sm:text-[20px] items-center space-y-4">
                         <div className="font-THICCCBOI max-w-[400px] text-justify">
@@ -22,9 +26,7 @@ const Welcome = () => {
                                 <p>Start a project</p>
                             </div>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                                </svg>
+                                <FiArrowRight />
                             </div>
                         </button>
                     </div>
@@ -46,7 +48,7 @@ const Welcome = () => {
                     </div>
                     <div className="" data-aos="fade-up"
                         data-aos-duration="3000">
-                        <img src="./src/assets/images/Rectangle 5650.png" alt="" />
+                        <img src={RightImg} alt="" />
                     </div>
                 </div>
             </div>

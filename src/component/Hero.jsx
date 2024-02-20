@@ -1,3 +1,5 @@
+import ResourcesHeroImg from "/src/assets/images/image 862.png";
+
 const Hero = () => {
     return (
         <div className="bg-orange-900">
@@ -12,7 +14,7 @@ const Hero = () => {
                         <button className="text-black px-5 py-2 bg-amber-200 rounded-lg">Read More</button>
                     </div>
                     <div >
-                        <img src="/src/assets/images/image 862.png" alt="" />
+                        <img src={ResourcesHeroImg} alt="" />
                     </div>
                 </div>
             </div>

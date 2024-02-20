@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { FiArrowRight } from "react-icons/fi";
 
 const Navbar = () => {
     const settings = {
@@ -26,35 +27,29 @@ const Navbar = () => {
                                 <p className='text-sm sm:text-base'>Load more</p>
                             </div>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                                </svg>
+                                <FiArrowRight />
                             </div>
                         </button>
                     </div>
                     <div className='space-y-20'>
                         <h1 className="text-center content-center text-white text-[22px] sm:text-[82px] mx-auto font-Montserrat">Acquire users at scale</h1>
-                        <button className="flex bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto gap-[6px]">
+                        <button className="flex items-center bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto gap-[6px]">
                             <div className="font-THICCCBOI">
                                 <p className='text-sm sm:text-base'>Load more</p>
                             </div>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                                </svg>
+                                <FiArrowRight />
                             </div>
                         </button>
                     </div>
                     <div className='space-y-20'>
                         <h1 className="text-center content-center text-white text-[22px] sm:text-[82px] mx-auto font-Montserrat">We connect a brand to the<br /> right solution partner</h1>
-                        <button className="flex bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto gap-[6px]">
+                        <button className="flex items-center bg-[#FDDC8D] text-black px-5 py-3 rounded mx-auto gap-[6px]">
                             <div className="font-THICCCBOI">
                                 <p className='text-sm sm:text-base'>Load more</p>
                             </div>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                                </svg>
+                                <FiArrowRight />
                             </div>
                         </button>
                     </div>
